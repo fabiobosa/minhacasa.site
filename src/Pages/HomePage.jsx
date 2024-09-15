@@ -1,9 +1,11 @@
 import React from 'react'
 import { Box } from '@mui/material'
-import banner_header_1 from '../assets/imgs/Home/Header/banner_header.webp'
-import banner_header_2 from '../assets/imgs/Home/Header/banner_header_b.webp'
-import banner_header_3 from '../assets/imgs/Home/Header/banner_header_c.webp'
 import Header from '../Components/Header'
+import NossosAlojamentos from './HomePage/NossosAlojamentos'
+
+import banner_header_1 from '../imgs/Home/Header/banner_header.webp'
+import banner_header_2 from '../imgs/Home/Header/banner_header_b.webp'
+import banner_header_3 from '../imgs/Home/Header/banner_header_c.webp'
 
 const headerProps = {
   element1: {
@@ -39,6 +41,7 @@ const HomePage = () => {
       }}
     >
       <Header headerProps={headerProps} />
+      <NossosAlojamentos />
     </Box>
   )
 }
