@@ -10,6 +10,7 @@ import PraiasMontanhas from './HomePage/PraiasMontanhas'
 import CampingField from './HomePage/CampingField'
 import Review from './HomePage/Review'
 import Faq from './HomePage/Faq'
+import Contact from './HomePage/Contact'
 
 const headerProps = {
   element1: {
@@ -50,6 +51,7 @@ const HomePage = () => {
       <CampingField />
       <Review />
       <Faq />
+      <Contact />
     </Box>
   )
 }
