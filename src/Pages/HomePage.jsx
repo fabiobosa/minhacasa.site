@@ -9,6 +9,7 @@ import banner_header_3 from '../imgs/Home/Header/banner_header_c.webp'
 import PraiasMontanhas from './HomePage/PraiasMontanhas'
 import CampingField from './HomePage/CampingField'
 import Review from './HomePage/Review'
+import Faq from './HomePage/Faq'
 
 const headerProps = {
   element1: {
@@ -47,7 +48,8 @@ const HomePage = () => {
       <NossosAlojamentos />
       <PraiasMontanhas />
       <CampingField />
-      <Review/>
+      <Review />
+      <Faq />
     </Box>
   )
 }
