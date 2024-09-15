@@ -1,0 +1,17 @@
+<svg id="Componente_30_2" data-name="Componente 30 – 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12.335" height="17.329" viewBox="0 0 12.335 17.329">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_36618" data-name="Retângulo 36618" width="12.335" height="17.329" fill="none" stroke="#004a80" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_14834" data-name="Grupo 14834" clip-path="url(#clip-path)">
+    <circle id="Elipse_10" data-name="Elipse 10" cx="5.75" cy="5.75" r="5.75" transform="translate(0.417 0.418)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Linha_6" data-name="Linha 6" y2="4.994" transform="translate(6.168 11.918)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Linha_7" data-name="Linha 7" x2="8.495" transform="translate(1.91 16.911)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Caminho_37198" data-name="Caminho 37198" d="M8.358,7.147A1.21,1.21,0,1,1,7.147,5.936,1.211,1.211,0,0,1,8.358,7.147Z" transform="translate(-0.979 -0.979)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Caminho_37199" data-name="Caminho 37199" d="M10.009,1.257C7.386,2.314,11.043,4.509,7.386,5.164" transform="translate(-1.218 -0.207)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Caminho_37200" data-name="Caminho 37200" d="M12.743,10.277c-1.057-2.623-3.252,1.034-3.907-2.623" transform="translate(-1.457 -1.262)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Caminho_37201" data-name="Caminho 37201" d="M4.317,12.742C6.94,11.685,3.283,9.491,6.94,8.835" transform="translate(-0.712 -1.457)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Caminho_37202" data-name="Caminho 37202" d="M1.263,4.294C2.32,6.917,4.515,3.26,5.17,6.917" transform="translate(-0.208 -0.708)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg id="Componente_29_2" data-name="Componente 29 – 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.739" height="16.995" viewBox="0 0 16.739 16.995">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_36629" data-name="Retângulo 36629" width="16.739" height="16.995" fill="#004a80"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_14840" data-name="Grupo 14840" clip-path="url(#clip-path)">
+    <path id="Caminho_37215" data-name="Caminho 37215" d="M2.055,7.2H0V8H2.314a7.646,7.646,0,0,1-.259-.8" transform="translate(0 -1.445)" fill="#004a80"/>
+    <path id="Caminho_37216" data-name="Caminho 37216" d="M18.624,7.2a7.646,7.646,0,0,1-.259.8h2.058V7.2Z" transform="translate(-3.684 -1.445)" fill="#004a80"/>
+    <rect id="Retângulo_36622" data-name="Retângulo 36622" width="6.395" height="0.799" transform="translate(10.258 5.794) rotate(-64.973)" fill="#004a80"/>
+    <rect id="Retângulo_36623" data-name="Retângulo 36623" width="6.395" height="0.799" transform="translate(7.393 5.794) rotate(-64.973)" fill="#004a80"/>
+    <rect id="Retângulo_36624" data-name="Retângulo 36624" width="6.395" height="0.799" transform="translate(4.625 5.794) rotate(-64.973)" fill="#004a80"/>
+    <path id="Caminho_37217" data-name="Caminho 37217" d="M12.61,4.235l-.372.8,2.906.023a6.571,6.571,0,0,1-6.3,6.391,6.567,6.567,0,0,1-6.3-6.414l3.182-.014.374-.8-4.37.019,0,.4a7.4,7.4,0,0,0,7.112,7.61,7.405,7.405,0,0,0,7.112-7.585l0-.4Z" transform="translate(-0.347 -0.846)" fill="#004a80"/>
+    <line id="Linha_10" data-name="Linha 10" x1="2.784" y2="6.229" transform="translate(3.026 10.551)" fill="#1d1d1b"/>
+    <rect id="Retângulo_36625" data-name="Retângulo 36625" width="6.823" height="0.799" transform="translate(2.66 16.616) rotate(-65.898)" fill="#004a80"/>
+    <line id="Linha_11" data-name="Linha 11" x2="2.436" y2="6.374" transform="translate(11.052 10.478)" fill="#1d1d1b"/>
+    <rect id="Retângulo_36626" data-name="Retângulo 36626" width="0.799" height="6.823" transform="translate(10.679 10.621) rotate(-20.915)" fill="#004a80"/>
+    <line id="Linha_12" data-name="Linha 12" y2="5.794" transform="translate(8.369 10.985)" fill="#1d1d1b"/>
+    <rect id="Retângulo_36627" data-name="Retângulo 36627" width="0.799" height="5.795" transform="translate(7.97 10.985)" fill="#004a80"/>
+    <line id="Linha_13" data-name="Linha 13" x2="8.032" transform="translate(4.321 13.882)" fill="#1d1d1b"/>
+    <rect id="Retângulo_36628" data-name="Retângulo 36628" width="8.032" height="1.199" transform="translate(4.321 13.282)" fill="#004a80"/>
+  </g>
+</svg>

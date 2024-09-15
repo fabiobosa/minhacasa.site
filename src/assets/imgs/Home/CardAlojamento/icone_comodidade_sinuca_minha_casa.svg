@@ -1,0 +1,20 @@
+<svg id="Componente_27_2" data-name="Componente 27 – 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.924" height="17.728" viewBox="0 0 20.924 17.728">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_36620" data-name="Retângulo 36620" width="20.924" height="17.728" fill="none" stroke="#004a80" stroke-width="0.8"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_14836" data-name="Grupo 14836" clip-path="url(#clip-path)">
+    <rect id="Retângulo_36619" data-name="Retângulo 36619" width="19.989" height="13.944" rx="1.597" transform="translate(0.467 0.467)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="0.8"/>
+    <path id="Caminho_37204" data-name="Caminho 37204" d="M20.88,3.045a2.515,2.515,0,0,0,.772-.132v-.92A1.493,1.493,0,0,0,20.159.5H18.335A2.545,2.545,0,0,0,20.88,3.045Z" transform="translate(-1.195 -0.033)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="0.8"/>
+    <path id="Caminho_37205" data-name="Caminho 37205" d="M11.037,3.045A2.392,2.392,0,0,0,13.24.5h-4.4A2.392,2.392,0,0,0,11.037,3.045Z" transform="translate(-0.576 -0.033)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="0.8"/>
+    <path id="Caminho_37206" data-name="Caminho 37206" d="M.5,1.993V2.82a2.52,2.52,0,0,0,1.035.224A2.545,2.545,0,0,0,4.079.5H1.993A1.493,1.493,0,0,0,.5,1.993Z" transform="translate(-0.033 -0.033)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="0.8"/>
+    <path id="Caminho_37207" data-name="Caminho 37207" d="M21.651,13.747v-.92a2.505,2.505,0,0,0-.772-.132,2.545,2.545,0,0,0-2.545,2.545h1.824A1.493,1.493,0,0,0,21.651,13.747Z" transform="translate(-1.195 -0.828)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="0.8"/>
+    <path id="Caminho_37208" data-name="Caminho 37208" d="M11.037,12.695a2.392,2.392,0,0,0-2.2,2.545h4.4A2.392,2.392,0,0,0,11.037,12.695Z" transform="translate(-0.576 -0.828)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="0.8"/>
+    <path id="Caminho_37209" data-name="Caminho 37209" d="M1.535,12.695A2.52,2.52,0,0,0,.5,12.919v.827A1.493,1.493,0,0,0,1.993,15.24H4.079A2.545,2.545,0,0,0,1.535,12.695Z" transform="translate(-0.033 -0.828)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="0.8"/>
+    <path id="Caminho_37210" data-name="Caminho 37210" d="M13.109,5.731a.4.4,0,1,1-.4-.4.395.395,0,0,1,.4.4" transform="translate(-0.803 -0.348)" fill="none" stroke="#004a80" stroke-width="0.8"/>
+    <circle id="Elipse_11" data-name="Elipse 11" cx="0.395" cy="0.395" r="0.395" transform="translate(11.515 4.988)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="0.8"/>
+    <line id="Linha_8" data-name="Linha 8" x2="3.388" y2="10.14" transform="translate(12.664 7.439)" fill="#1d1d1b" stroke="#004a80" stroke-width="0.8"/>
+    <line id="Linha_9" data-name="Linha 9" x2="3.388" y2="10.14" transform="translate(12.664 7.439)" fill="none" stroke="#004a80" stroke-miterlimit="10" stroke-width="0.8"/>
+  </g>
+</svg>
