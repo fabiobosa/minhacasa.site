@@ -11,6 +11,7 @@ import CampingField from './HomePage/CampingField'
 import Review from './HomePage/Review'
 import Faq from './HomePage/Faq'
 import Contact from './HomePage/Contact'
+import Footer from './HomePage/Footer'
 
 const headerProps = {
   element1: {
@@ -52,6 +53,7 @@ const HomePage = () => {
       <Review />
       <Faq />
       <Contact />
+      <Footer />
     </Box>
   )
 }
