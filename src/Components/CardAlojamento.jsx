@@ -22,10 +22,10 @@ const CardAlojamento = ({
   return (
     <Box
       sx={{
-        width: { xs: '90vw', sm: '80vw', md: '45vw' }, 
+        width: { xs: '80vw', sm: '80vw', md: '45vw' },
         backgroundColor: bgColor,
         display: 'flex',
-        flexDirection: { xs: 'column', md: 'row' }, 
+        flexDirection: { xs: 'column', md: 'row' },
         borderRadius: 1,
         overflow: 'hidden',
         height: '100%',
@@ -67,7 +67,7 @@ const CardAlojamento = ({
           flexDirection: 'column',
           justifyContent: 'space-between',
           flex: 1,
-          mt: { xs: 3, md: 0 } 
+          mt: { xs: 3, md: 0 }
         }}
       >
         <Grid container direction="row" alignItems="flex-start" spacing={2}>

@@ -43,7 +43,8 @@ const Review = () => {
           width: { xs: '100%', md: '918px' },
           height: 'auto',
           margin: { xs: '0 auto', md: '50px auto' },
-          textAlign: { xs: 'center', md: 'left' }
+          textAlign: { xs: 'left', md: 'left' },
+          pl: 2
         }}
       >
         <Typography

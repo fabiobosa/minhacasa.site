@@ -21,7 +21,7 @@ const Header = ({ headerProps }) => {
       <Carousel
         autoPlay
         infiniteLoop
-        interval={5000}
+        interval={4000}
         showArrows={false}
         showStatus={false}
         showThumbs={false}

@@ -71,7 +71,7 @@ const Navigator = () => {
           >
             <MenuIcon />
           </IconButton>
-          <Drawer anchor="left" open={drawerOpen} onClose={handleDrawerToggle}>
+          <Drawer anchor="right" open={drawerOpen} onClose={handleDrawerToggle}>
             <List>
               <ListItem button component={Link} to="/alojamentos">
                 <ListItemText primary="Alojamentos" />

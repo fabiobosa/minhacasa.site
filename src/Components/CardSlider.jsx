@@ -13,8 +13,8 @@ const CardSlider = ({ cards }) => {
   useEffect(() => {
     if (isMobile && ref.current) {
       ref.current.scrollTo({
-        left: 350, 
-        behavior: 'smooth' 
+        left: 365,
+        behavior: 'smooth'
       })
     }
   }, [isMobile])

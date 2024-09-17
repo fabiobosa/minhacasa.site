@@ -46,7 +46,7 @@ const Contact = () => {
       <Container
         sx={{
           width: { xs: '100%', md: '50%' },
-          textAlign: { xs: 'center', md: 'left' },
+          textAlign: { xs: 'left', md: 'left' },
           mb: { xs: 4, md: 0 }
         }}
       >
