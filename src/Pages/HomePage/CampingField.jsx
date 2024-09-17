@@ -31,6 +31,7 @@ const CampingField = () => {
       >
         <Box
           sx={{
+            flex: 1,
             order: { xs: 2, md: 1 }
           }}
         >
@@ -44,6 +45,7 @@ const CampingField = () => {
         </Box>
         <Box
           sx={{
+            flex: 1,
             order: { xs: 1, md: 2 }
           }}
         >
