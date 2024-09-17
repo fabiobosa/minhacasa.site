@@ -53,18 +53,8 @@ const HomePage = () => {
     >
       <Navigator />
       <Header headerProps={headerProps} />
-      <Box
-        sx={{
-          position: isMobile ? 'static' : 'absolute',
-          top: isMobile ? 'auto' : '57vh',
-          left: isMobile ? 'auto' : '20%',
-          boxShadow: !isMobile ? '0px 3px 6px #00000029' : '',
-          zIndex: 1,
-          width: isMobile ? '100%' : 'auto'
-        }}
-      >
-        <BookField />
-      </Box>
+
+      <BookField />
       <NossosAlojamentos />
       <PraiasMontanhas />
       <CampingField />
