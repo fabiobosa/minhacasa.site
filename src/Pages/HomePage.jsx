@@ -1,5 +1,6 @@
 import React from 'react'
 import { Box } from '@mui/material'
+import Navigator from '../Components/Navigator'
 import Header from '../Components/Header'
 import NossosAlojamentos from './HomePage/NossosAlojamentos'
 
@@ -46,6 +47,7 @@ const HomePage = () => {
         width: '100%'
       }}
     >
+      <Navigator />
       <Header headerProps={headerProps} />
       <NossosAlojamentos />
       <PraiasMontanhas />

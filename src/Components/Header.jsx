@@ -10,7 +10,7 @@ const Header = ({ headerProps }) => {
     alignItems: 'center',
     justifyContent: 'flex-end',
     backgroundSize: 'cover',
-    minHeight: { xs: '50vh', md: '65vh' },
+    minHeight: { xs: '55vh', md: '65vh' },
     paddingBottom: { xs: '10vh', md: '23vh' },
     backgroundImage: `url(${image})`,
     width: '100%'
