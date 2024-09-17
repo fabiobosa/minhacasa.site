@@ -94,17 +94,24 @@ const NossosAlojamentos = () => {
   ]
 
   return (
-    <Box sx={{}}>
-      <Typography variant="h2" sx={{ mt: '10vh', ml: '20vw' }}>
+    <Box sx={{ mt: 5, mb: 15 }}>
+      <Typography
+        variant="h2"
+        sx={{
+          mt: '10vh',
+          ml: { xs: '5vw', md: '20vw' }, 
+          fontSize: { xs: '2rem', md: '3rem' } 
+        }}
+      >
         Nossos Alojamentos:
       </Typography>
       <Box
         sx={{
-          mb: 15,
-          flexDirection: 'column',
-          alignItems: 'center',
+          mt: 5,
+          display: 'flex',
           justifyContent: 'center',
-          mt: 5
+          alignItems: 'center',
+          px: { xs: 0, md: 0 }
         }}
       >
         <CardSlider cards={cards} />

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box } from '@mui/material'
+import { Box, useMediaQuery, useTheme } from '@mui/material'
 import Navigator from '../Components/Navigator'
 import Header from '../Components/Header'
 import NossosAlojamentos from './HomePage/NossosAlojamentos'
@@ -13,6 +13,7 @@ import Review from './HomePage/Review'
 import Faq from './HomePage/Faq'
 import Contact from './HomePage/Contact'
 import Footer from './HomePage/Footer'
+import BookField from './HomePage/BookField'
 
 const headerProps = {
   element1: {
@@ -39,6 +40,9 @@ const headerProps = {
 }
 
 const HomePage = () => {
+  const theme = useTheme()
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'))
+
   return (
     <Box
       sx={{
@@ -49,6 +53,18 @@ const HomePage = () => {
     >
       <Navigator />
       <Header headerProps={headerProps} />
+      <Box
+        sx={{
+          position: isMobile ? 'static' : 'absolute',
+          top: isMobile ? 'auto' : '57vh',
+          left: isMobile ? 'auto' : '20%',
+          boxShadow: !isMobile ? '0px 3px 6px #00000029' : '',
+          zIndex: 1,
+          width: isMobile ? '100%' : 'auto'
+        }}
+      >
+        <BookField />
+      </Box>
       <NossosAlojamentos />
       <PraiasMontanhas />
       <CampingField />

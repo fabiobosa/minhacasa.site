@@ -22,18 +22,20 @@ const CardAlojamento = ({
   return (
     <Box
       sx={{
-        width: '45vw',
+        width: { xs: '90vw', sm: '80vw', md: '45vw' }, 
         backgroundColor: bgColor,
         display: 'flex',
+        flexDirection: { xs: 'column', md: 'row' }, 
         borderRadius: 1,
         overflow: 'hidden',
         height: '100%',
-        p: 4
+        p: 4,
+        gap: 3
       }}
     >
       <Box
         sx={{
-          width: 316,
+          width: { xs: '100%', md: 316 },
           height: '100%',
           '.carousel .slide': {
             background: 'none'
@@ -49,7 +51,12 @@ const CardAlojamento = ({
           autoPlay={false}
         >
           {imgList.map((imgSrc, index) => (
-            <img key={index} src={imgSrc} alt={`Slide ${index}`} />
+            <img
+              key={index}
+              src={imgSrc}
+              alt={`Slide ${index}`}
+              style={{ width: '100%' }}
+            />
           ))}
         </Carousel>
       </Box>
@@ -60,7 +67,7 @@ const CardAlojamento = ({
           flexDirection: 'column',
           justifyContent: 'space-between',
           flex: 1,
-          ml: 3
+          mt: { xs: 3, md: 0 } 
         }}
       >
         <Grid container direction="row" alignItems="flex-start" spacing={2}>
@@ -78,7 +85,12 @@ const CardAlojamento = ({
         </Grid>
 
         <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-          <Typography variant="h4">{title}</Typography>
+          <Typography
+            variant="h4"
+            sx={{ fontSize: { xs: '1.5rem', md: '2rem' } }}
+          >
+            {title}
+          </Typography>
           <Typography variant="body1">{description}</Typography>
         </Box>
 
@@ -93,7 +105,8 @@ const CardAlojamento = ({
         <Box
           sx={{
             display: 'flex',
-            alignItems: 'flex-end'
+            alignItems: 'flex-end',
+            gap: 2
           }}
         >
           <Button1 onClick={handleBooking} text={'RESERVE AGORA'} />

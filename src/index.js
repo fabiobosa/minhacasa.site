@@ -33,7 +33,7 @@ const theme = createTheme({
       textShadow: '0px 3px 6px #00000029',
       fontSize: '2rem',
       '@media (min-width:600px)': {
-        fontSize: '3rem'
+        fontSize: '1.75rem'
       },
       '@media (min-width:960px)': {
         fontSize: '3.75rem'
@@ -46,7 +46,17 @@ const theme = createTheme({
       fontFamily: 'Poppins',
       fontSize: '40px',
       fontWeight: 700,
-      color: '#000000'
+      color: '#000000',
+      fontSize: '2rem',
+      '@media (min-width:600px)': {
+        fontSize: '1.75rem'
+      },
+      '@media (min-width:960px)': {
+        fontSize: '3.75rem'
+      },
+      '@media (min-width:1280px)': {
+        fontSize: '4rem'
+      }
     },
     h3: {
       fontFamily: 'Poppins',
@@ -64,7 +74,6 @@ const theme = createTheme({
       fontFamily: 'Poppins',
       fontWeight: 500,
       color: '#000000',
-      textShadow: '0px 3px 6px #00000029',
       '@media (min-width:0px)': {
         fontSize: '0.75rem'
       },
@@ -79,8 +88,7 @@ const theme = createTheme({
       fontFamily: 'Poppins',
       fontSize: '12px',
       fontWeight: 'light',
-      color: '#000000',
-      textShadow: '0px 3px 6px #00000029'
+      color: '#000000'
     },
     subtitle1: {
       fontFamily: 'Poppins',

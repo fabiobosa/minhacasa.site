@@ -1,10 +1,23 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import { useTheme } from '@mui/material/styles'
 import CardAlojamento from './CardAlojamento'
-import { Box } from '@mui/material'
+import { Box, useMediaQuery } from '@mui/material'
 
 const CardSlider = ({ cards }) => {
   const theme = useTheme()
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'))
+  const [isDragging, setIsDragging] = useState(false)
+  const [startX, setStartX] = useState(0)
+  const ref = useRef()
+
+  useEffect(() => {
+    if (isMobile && ref.current) {
+      ref.current.scrollTo({
+        left: 350, 
+        behavior: 'smooth' 
+      })
+    }
+  }, [isMobile])
 
   const containerStyle = {
     display: 'flex',
@@ -18,10 +31,6 @@ const CardSlider = ({ cards }) => {
       display: 'none'
     }
   }
-
-  const [isDragging, setIsDragging] = useState(false)
-  const [startX, setStartX] = useState(0)
-  const ref = useRef()
 
   const onMouseDown = e => {
     setIsDragging(true)
@@ -62,7 +71,7 @@ const CardSlider = ({ cards }) => {
     >
       <Box sx={spacerStyle} />
       {cards.map((card, index) => (
-        <div key={index} style={{ flexShrink: 0 }}>
+        <Box key={index} sx={{ flexShrink: 0 }}>
           <CardAlojamento
             imgList={card.imgSrc}
             title={card.title}
@@ -72,7 +81,7 @@ const CardSlider = ({ cards }) => {
             iconList={card.iconList}
             bgColor={'bg.grey'}
           />
-        </div>
+        </Box>
       ))}
       <Box sx={spacerStyle} />
     </Box>

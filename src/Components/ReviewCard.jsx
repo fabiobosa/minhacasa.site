@@ -7,7 +7,7 @@ const ReviewCard = ({ image, comment, name }) => {
       sx={{
         display: 'flex',
         alignItems: 'flex-start',
-        flexDirection: { xs: 'column', sm: 'row' },
+        flexDirection: { xs: 'row', sm: 'row' },
         width: { xs: '100%', md: '698px' },
         padding: { xs: 1, md: 2 },
         borderRadius: 2,
@@ -27,7 +27,8 @@ const ReviewCard = ({ image, comment, name }) => {
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
-          gap: 1
+          gap: 1,
+          maxWidth: '75vw'
         }}
       >
         <Typography variant="body1">

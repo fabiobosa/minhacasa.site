@@ -29,9 +29,7 @@ export const PraiasMontanhas = () => {
           maxWidth: 1200
         }}
       >
-        <Box
-          sx={{ width: { xs: '100%', md: '50%' } }}
-        >
+        <Box sx={{ width: '100%' }}>
           <GenericFieldTitle
             imgSrc={imagem_morro01}
             text={
@@ -41,9 +39,7 @@ export const PraiasMontanhas = () => {
           />
         </Box>
 
-        <Box
-          sx={{ width: { xs: '100%', md: '50%' } }}
-        >
+        <Box sx={{ width: '100%' }}>
           <GenericFieldButton
             imgSrc={imagem_morro02}
             text={
