@@ -52,10 +52,10 @@ const theme = createTheme({
         fontSize: '1.75rem'
       },
       '@media (min-width:960px)': {
-        fontSize: '3.75rem'
+        fontSize: '3rem'
       },
       '@media (min-width:1280px)': {
-        fontSize: '4rem'
+        fontSize: '3.25rem'
       }
     },
     h3: {
