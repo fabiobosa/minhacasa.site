@@ -50,7 +50,7 @@ const NossosAlojamentos = () => {
         icone_comodidade_sinuca,
         icone_comodidade_wifi,
         icone_comodidade_churrasqueira,
-        icone_comodidade_ventilador
+        //icone_comodidade_ventilador
       ]
     },
     {
@@ -94,13 +94,11 @@ const NossosAlojamentos = () => {
   ]
 
   return (
-    <Box sx={{ mt: 5, mb: 15 }}>
+    <Box sx={{ mt: 5, mb: 15, py: { xs: 2, md: 10 } }}>
       <Typography
         variant="h2"
         sx={{
-          mt: '10vh',
-          ml: { xs: '5vw', md: '20vw' }, 
-          fontSize: { xs: '2rem', md: '3rem' } 
+          ml: { xs: '5vw', md: '20vw' }
         }}
       >
         Nossos Alojamentos:

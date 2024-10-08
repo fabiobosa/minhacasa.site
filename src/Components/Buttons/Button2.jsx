@@ -7,6 +7,7 @@ const Button2 = ({ text, onClick }) => {
       variant="outlined"
       onClick={onClick}
       sx={{
+        p: { xs: 1, md: 1.5 },
         ml: 2,
         typography: 'body1',
         color: '#004A80',

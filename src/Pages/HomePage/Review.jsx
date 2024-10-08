@@ -36,7 +36,12 @@ const Review = () => {
 
   return (
     <Box
-      sx={{ padding: { xs: '20px 10px', md: '20px 0' }, bgcolor: 'bg.grey' }}
+      sx={{
+        padding: { xs: '20px 10px', md: '20px 0' },
+        bgcolor: 'bg.grey',
+        px: { xs: 2, md: 8 },
+        py: { xs: 2, md: 15 }
+      }}
     >
       <Box
         sx={{
@@ -44,7 +49,6 @@ const Review = () => {
           height: 'auto',
           margin: { xs: '0 auto', md: '50px auto' },
           textAlign: { xs: 'left', md: 'left' },
-          pl: 2
         }}
       >
         <Typography

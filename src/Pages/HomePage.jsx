@@ -14,6 +14,7 @@ import Faq from './HomePage/Faq'
 import Contact from './HomePage/Contact'
 import Footer from './HomePage/Footer'
 import BookField from './HomePage/BookField'
+import WhatsAppButton from '../Components/WhatsAppButton'
 
 const headerProps = {
   element1: {
@@ -41,7 +42,6 @@ const headerProps = {
 
 const HomePage = () => {
   const theme = useTheme()
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'))
 
   return (
     <Box
@@ -62,6 +62,8 @@ const HomePage = () => {
       <Faq />
       <Contact />
       <Footer />
+
+      <WhatsAppButton phoneNumber={5548999000541} />
     </Box>
   )
 }

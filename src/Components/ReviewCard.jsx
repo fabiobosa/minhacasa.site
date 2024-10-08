@@ -1,7 +1,10 @@
 import React from 'react'
-import { Box, Typography, Avatar } from '@mui/material'
+import { Box, Typography, Avatar, useMediaQuery, useTheme } from '@mui/material'
 
 const ReviewCard = ({ image, comment, name }) => {
+  const theme = useTheme()
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm')) // Detecta se a tela é mobile
+
   return (
     <Box
       sx={{
@@ -14,14 +17,18 @@ const ReviewCard = ({ image, comment, name }) => {
         gap: { xs: 1, md: 2 }
       }}
     >
-      <Avatar
-        alt={name}
-        src={image}
-        sx={{
-          width: 95,
-          height: 95
-        }}
-      />
+      {/* Renderiza o Avatar apenas se não estiver no mobile */}
+      {!isMobile && (
+        <Avatar
+          alt={name}
+          src={image}
+          sx={{
+            width: 95,
+            height: 95
+          }}
+        />
+      )}
+
       <Box
         sx={{
           display: 'flex',

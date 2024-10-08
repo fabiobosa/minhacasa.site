@@ -30,7 +30,7 @@ const CardAlojamento = ({
         overflow: 'hidden',
         height: '100%',
         p: 4,
-        gap: 3
+        gap: { xs: 0, md: 3 }
       }}
     >
       <Box
@@ -67,7 +67,8 @@ const CardAlojamento = ({
           flexDirection: 'column',
           justifyContent: 'space-between',
           flex: 1,
-          mt: { xs: 3, md: 0 }
+          mt: { xs: 3, md: 0 },
+          gap: { xs: 1, md: 0 }
         }}
       >
         <Grid container direction="row" alignItems="flex-start" spacing={2}>
@@ -84,7 +85,13 @@ const CardAlojamento = ({
           </Grid>
         </Grid>
 
-        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: { xs: 1, md: 1 }
+          }}
+        >
           <Typography
             variant="h4"
             sx={{ fontSize: { xs: '1.5rem', md: '2rem' } }}

@@ -40,6 +40,7 @@ const Header = ({ headerProps }) => {
             <Button
               variant="contained"
               sx={{
+                p: 1.5,
                 backgroundColor: '#004A80',
                 '&:hover': {
                   backgroundColor: '#1D497C',

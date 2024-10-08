@@ -8,6 +8,7 @@ const Button1 = ({ text, sx, onClick }) => {
       onClick={onClick}
       sx={{
         ...sx,
+        p: { xs: 1, md: 1.5 },
         backgroundColor: '#004A80',
         typography: 'body1',
         color: 'white',

@@ -8,10 +8,11 @@ const GenericFieldButton = ({ imgSrc, text, buttonText }) => {
       sx={{
         display: 'flex',
         flexDirection: 'column',
+        justifyContent: 'space-between',
         alignItems: { xs: 'flex-start', md: 'flex-start' },
         gap: 2,
         width: '100%',
-        minHeight: { xs: 'auto', md: '507px' }
+        minHeight: { xs: 'auto', md: '100%' },
       }}
     >
       <Box

@@ -15,7 +15,8 @@ const CampingField = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        p: { xs: 2, md: 8 }
+        px: { xs: 2, md: 8 },
+        py: { xs: 2, md: 15 }
       }}
     >
       <Box
